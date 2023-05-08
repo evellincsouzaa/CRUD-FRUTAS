@@ -33,7 +33,8 @@ $Preco = $appointment['Preco'];
      <form method="post">
        
      <label for="Nome">Nome</label>
-        <input type="text" name="Nome" value="<?= $appointment['Nome'];?>"required><br> 
+        <input type="text" name="Nome" 
+        value="<?= $appointment['Nome'];?>"required><br> 
 
         <label for="Tamanho">Tamanho</label>
         <input type="text" name="Tamanho" value="<?= $appointment['Tamanho'];?>" required><br> 
